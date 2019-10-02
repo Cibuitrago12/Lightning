@@ -53,3 +53,11 @@ void mousePressed()
    endY = 270;
 
 }
+
+void keyPressed(){
+   if(key == 'c'){
+     fill(255);
+    stroke(153);
+    rect(60, 100, 420, 340);
+   }
+}
